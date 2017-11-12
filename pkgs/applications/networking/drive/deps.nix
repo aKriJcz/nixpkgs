@@ -104,8 +104,8 @@
     fetch = {
       type = "git";
       url = "https://github.com/odeke-em/log";
-      rev = "cad53c4565a0b0304577bd13f3862350bdc5f907";
-      sha256 = "059c933qjikxlvaywzpzljqnab19svymbv6x32pc7khw156fh48w";
+      rev = "8d60a6917853243fd746612e6ba47843a794fa82";
+      sha256 = "0nshkvlmwwqfgngs52gf5k4gh3divvhzaagv0x1p7k0k3mk4yf7w";
     };
   }
   {
@@ -142,6 +142,15 @@
       url = "https://github.com/odeke-em/statos";
       rev = "6f7e4db337bc11fc46d9b0456a93836cbbfe5141";
       sha256 = "1lijz3cxqxd78sl0nzfgvs675dg7q99jqwvhgisnk9n84ic4ffzj";
+    };
+  }
+  {
+    goPackagePath = "github.com/odeke-em/namespace";
+    fetch = {
+      type = "git";
+      url = "https://github.com/odeke-em/namespace";
+      rev = "0ab79ba44f1328b1ec75ea985ad5c338ba3d56a6";
+      sha256 = "0j1l1qmxabfzlh7gz6hcfb9g72c5jnjr9kzc8lq20i37j69jyf0m";
     };
   }
   {
